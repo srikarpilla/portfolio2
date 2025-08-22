@@ -1,0 +1,155 @@
+<section class="section section-projects" id="projects-section">
+  <style>
+    .project-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      padding: 1rem 0;
+    }
+    .project-card {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgb(0 0 0 / 0.1);
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+    .project-card .project-img {
+      width: 100%;
+      max-width: 280px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 6px;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,.15);
+    }
+    .project-card h3 {
+      font-size: 1.4rem;
+      margin-bottom: 0.6rem;
+      color: #222;
+      font-weight: 700;
+    }
+    .project-card p {
+      font-size: 1rem;
+      line-height: 1.5;
+      color: #555;
+      margin-bottom: 1rem;
+    }
+    .project-card p b {
+      font-weight: 600;
+    }
+    .project-card .btn {
+      text-decoration: none;
+      background-color: #007bff;
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border-radius: 4px;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+      display: inline-block;
+    }
+    .project-card .btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+
+  <div class="container">
+    <h2 class="common-heading">My Projects</h2>
+    <p>Below are some of the key projects I've built, showcasing my experience in AI, ML, data science, and web development.</p>
+
+    <div class="grid grid-four-column project-list">
+      <!-- AI Chatbot -->
+      <div class="project-card">
+        <img src="images/aichatbot.jpg" alt="AI Chatbot project image" class="project-img">
+        <h3>AI Chatbot</h3>
+        <p>
+          <strong>June 2025</strong><br>
+          Designed a smart pipeline to process PDFs, HTML, and text using advanced NLP (tokenization, stemming). Built similarity search with TF-IDF and Cohere's generative AI for context-aware responses. Developed a web interface for easy document upload and querying.<br>
+          <b>Technologies:</b> Python, NLP, TF-IDF, Cohere API, Flask, JavaScript
+        </p>
+        <a href="https://github.com/srikarpilla/" target="_blank" class="btn">View Source Code</a>
+      </div>
+
+      <!-- Medical Advisor -->
+      <div class="project-card">
+        <img src="images/medical.png" alt="Medical Advisor project image" class="project-img">
+        <h3>Medical Advisor</h3>
+        <p>
+          <strong>Oct 2024 – Nov 2024</strong><br>
+          Built an ML prediction algorithm for medical decision support. Visualized insights with Seaborn and deployed via Flask for fast, accessible patient analysis. Collaborated with healthcare experts for accuracy improvements.<br>
+          <b>Technologies:</b> Python, Seaborn, ML, Flask, Healthcare Analytics
+        </p>
+        <a href="https://github.com/srikarpilla/medicine-advisor.git" target="_blank" class="btn">View Source Code</a>
+      </div>
+
+      <!-- Tutorial Website -->
+      <div class="project-card">
+        <img src="images/tut.jpeg" alt="Tutorial Website project image" class="project-img">
+        <h3>Tutorial Website</h3>
+        <p>
+          <strong>Mar 2025 – Apr 2025</strong><br>
+          Built an interactive deep learning tutorial platform with a modular frontend and scalable PHP backend. Robust MySQL DB integration allows seamless handling of large datasets and rich multimedia learning materials.<br>
+          <b>Technologies:</b> HTML, CSS, JavaScript, PHP, MySQL, Web APIs
+        </p>
+        <a href="https://github.com/srikarpilla/tutorial-website" target="_blank" class="btn">View Source Code</a>
+      </div>
+
+      <!-- Speech Emotion Recognition (SER) -->
+      <div class="project-card">
+        <img src="images/sppech.png" alt="Speech Emotion Recognition project image" class="project-img">
+        <h3>Speech Emotion Recognition (SER)</h3>
+        <p>
+          <strong>Oct 2024</strong><br>
+          Developed an ML pipeline to classify emotions in audio recordings for customer service and HCI applications. Thoroughly evaluated model performance (accuracy, precision, recall, F1).<br>
+          <b>Technologies:</b> Python, ML, Audio Processing, Data Science
+        </p>
+        <a href="https://github.com/srikarpilla/speechemotionrecognization.git" target="_blank" class="btn">View Source Code</a>
+      </div>
+
+      <!-- Flight Booking Price Prediction -->
+      <div class="project-card">
+        <img src="images/flight.jpeg"alt="Flight Booking Price Prediction project image" class="project-img">
+        <h3>Flight Booking Price Prediction</h3>
+        <p>
+          <strong>2024</strong><br>
+          Created a dynamic ML model to predict flight ticket prices based on historical and real-time data. Designed front-end UI for users to estimate and visualize price trends. Improved travel planning accuracy.<br>
+          <b>Technologies:</b> Python, ML, Data Visualization, Web Development
+        </p>
+        <a href="https://github.com/srikarpilla/Flight_Booking_Price_Prediction.git" target="_blank" class="btn">View Source Code</a>
+      </div>
+
+      <!-- Data Analysis in Heart Disease -->
+      <div class="project-card">
+        <img src="images/heart.jpg"alt="Heart Disease Analysis project image" class="project-img">
+        <h3>Data Analysis in Heart Disease</h3>
+        <p>
+          <strong>2024</strong><br>
+          Performed exploratory data analysis and predictive modeling for heart disease datasets. Identified correlations between risk factors and outcomes, using ML models to visualize and improve diagnosis support.<br>
+          <b>Technologies:</b> Python, Pandas, Scikit-learn, Data Visualization
+        </p>
+        <a href="https://github.com/srikarpilla/Data-analysis-in-heart-disease.git" target="_blank" class="btn">View Source Code</a>
+      </div>
+<!-- Customer Churn Prediction -->
+<div class="project-card">
+  <img src="images/churn.avif" alt =  "Customer Churn Prediction project image" class="project-img">
+  <h3>Customer Churn Prediction</h3>
+  <p>
+    <strong>2025</strong><br>
+    Developed a data-driven machine learning model to predict customer churn for subscription-based businesses. Performed in-depth exploratory data analysis, engineered key behavioral features, and trained classifiers (Logistic Regression, Random Forest, XGBoost) to identify high-risk clients. Deployed a user interface for business teams to input customer profiles and visualize churn probabilities, enabling targeted outreach and improved retention strategies.<br>
+    <b>Technologies:</b> Python, Pandas, Scikit-learn, XGBoost, Data Visualization, Flask
+  </p>
+  <a href="https://github.com/srikarpilla/Customer-churn.git" target="_blank" class="btn">View Source Code</a>
+
+
+</div>
+<div class="project-card">   <img src="images/astrology.jpeg" alt="AI Astrologer Application project image" class="project-img">   <h3>AI Astrologer Application</h3>   <p>     <strong>2025</strong><br>     Developed a web-based AI-powered astrology platform where users enter birth details (Name, Date, Time, Place) to receive personalized astrological insights. The app calculates natal Sun, Moon, and Ascendant signs using Swiss Ephemeris, predicts personality traits via a PyTorch neural network, and answers free-text user questions with a hybrid rule-based and AI-driven response system. The frontend provides a clean, responsive UI with form validation and real-time feedback, while the Flask backend processes astrological computations, geolocation, timezone conversions, and natural language processing. This project involved tackling challenges in geolocation accuracy, error handling, and user input normalization.<br>     <b>Technologies:</b> Flask, Python, PyTorch, pyswisseph, Geopy, Timezonefinder, NLTK, AJAX, HTML/CSS/JavaScript   </p>   <a href="https://github.com/srikarpilla/Astrology_prediction.git" target="_blank" class="btn">View Source Code</a> </div>
+
+    </div>
+  </div>
+</section>
