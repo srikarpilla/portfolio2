@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Srikar - AI/ML Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        rel="stylesheet"
+    />
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo"><a href="#home">Srikar</a></div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#certificates" class="nav-link">Certificates</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background"></div>
+        <div class="hero-particles"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-greeting">Hi, I'm</div>
+                <h1 class="hero-name">Srikar</h1>
+                <div class="hero-subtitle">
+                    <span class="typing-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    Passionate AI/ML developer with expertise in deep learning,
+                    data science, and full-stack web development. Currently pursuing BTech
+                    in AI/ML with hands-on experience in building scalable ML solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn--primary">View My Work</a>
+                    <a
+                        href="https://drive.google.com/file/d/10MTGgIkMxIgkC1IqkCdiq--ivgwioF0U/view?usp=sharing"
+                        class="btn btn--outline"
+                        target="_blank"
+                        rel="noopener"
+                        >Download Resume</a
+                    >
+                </div>
+            </div>
+        </div>
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know more about my journey and expertise</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>BTech 4th Year - AI/ML Specialist</h3>
+                    <p>
+                        Currently pursuing my Bachelor's in Artificial Intelligence and
+                        Machine Learning, I'm passionate about creating intelligent
+                        solutions that solve real-world problems. With hands-on experience
+                        in deep learning, data science, and full-stack development, I
+                        bridge the gap between theoretical knowledge and practical
+                        applications.
+                    </p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="15">0</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="10">0</div>
+                            <div class="stat-label">Technologies</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="95">0</div>
+                            <div class="stat-label">Accuracy Rate</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">
+                    Showcasing my latest work in AI/ML and web development
+                </p>
+            </div>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="AI/ML">AI/ML</button>
+                <button class="filter-btn" data-filter="Web Dev">Web Dev</button>
+                <button class="filter-btn" data-filter="Data Science">Data Science</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Existing Projects -->
+                <div class="project-card" data-category="AI/ML">
+                    <div class="project-image">
+                        <img
+                            src="images/chatbot.jpeg"
+                            alt="Document Intelligence System"
+                        />
+                        <div class="project-overlay">
+                            <div class="project-links">
+
+                                <a href="https://github.com/srikarpilla/RAG-PROJECT.git" class="project-link" title="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Document Intelligence System</h3>
+                        <p class="project-description">
+                            Smart pipeline for processing PDFs, HTML, and text using advanced NLP techniques with
+                            TF-IDF and Cohere's generative AI.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">NLP</span>
+                            <span class="tech-tag">TF-IDF</span>
+                            <span class="tech-tag">Cohere API</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="AI/ML">
+                    <div class="project-image">
+                        <img
+                            src="images/medical.png"
+                            alt="Medical Decision Support System"
+                        />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a
+                                    href="https://github.com/srikarpilla/medicine-advisor"
+                                    class="project-link"
+                                    target="_blank"
+                                    rel="noopener"
+                                    title="GitHub"
+                                >
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Medical Decision Support System</h3>
+                        <p class="project-description">
+                            ML prediction algorithm for healthcare with Seaborn visualizations and Flask deployment
+                            for patient analysis.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Seaborn</span>
+                            <span class="tech-tag">ML</span>
+                            <span class="tech-tag">Flask</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="Web Dev">
+                    <div class="project-image">
+                        <img
+                            src="images/tut.jpeg"
+                            alt="Deep Learning Tutorial Platform"
+                        />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a
+                                    href="https://srikarpilla.github.io/dltutorial/"
+                                    class="project-link"
+                                    target="_blank"
+                                    rel="noopener"
+                                    title="GitHub"
+                                >
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Deep Learning Tutorial Platform</h3>
+                        <p class="project-description">
+                            Interactive platform with modular frontend and scalable PHP backend, featuring MySQL
+                            integration for multimedia content.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">PHP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="AI/ML">
+                    <div class="project-image">
+                        <img
+                            src="images/sppech.png"
+                            alt="Audio Emotion Classification"
+                        />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                            
+                                <a
+                                    href="https://github.com/srikarpilla/speechemotionrecognization"
+                                    class="project-link"
+                                    target="_blank"
+                                    rel="noopener"
+                                    title="GitHub"
+                                >
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Audio Emotion Classification</h3>
+                        <p class="project-description">
+                            ML pipeline for classifying emotions in audio recordings with comprehensive
+                            performance evaluation metrics.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">ML</span>
+                            <span class="tech-tag">Audio Processing</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="AI/ML">
+                    <div class="project-image">
+                        <img
+                            src="images/astrology.jpeg"
+                            alt="AI Astrology Platform"
+                        />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a
+                                    href="https://github.com/srikarpilla/Astrology_prediction.git"
+                                    class="project-link"
+                                    target="_blank"
+                                    rel="noopener"
+                                    title="GitHub"
+                                >
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI Astrology Platform</h3>
+                        <p class="project-description">
+                            Web-based AI-powered astrology app with PyTorch neural networks, Swiss Ephemeris
+                            calculations, and responsive UI.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">PyTorch</span>
+                            <span class="tech-tag">AI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Added New Projects -->
+                <div class="project-card" data-category="AI/ML">
+                    <div class="project-image">
+                        <img
+                            src="images/flight.jpeg"
+                            alt="Flight Booking Price Prediction"
+                        />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a
+                                    href="https://github.com/srikarpilla/Flight_Booking_Price_Prediction.git"
+                                    class="project-link"
+                                    target="_blank"
+                                    rel="noopener"
+                                    title="GitHub"
+                                >
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Flight Booking Price Prediction</h3>
+                        <p class="project-description">
+                            Created a dynamic ML model to predict flight ticket prices using historical and real-time
+                            data. Developed UI for users to estimate and visualize price trends.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">ML</span>
+                            <span class="tech-tag">Data Visualization</span>
+                            <span class="tech-tag">Web Development</span>
+                        </div>
+                    </div>
+                </div>
+              
+<div class="project-card" data-category="Data Science">
+                <div class="project-image"><img src="images/heart.jpg" alt="Data Analysis in Heart Disease" />
+                    <div class="project-overlay"><div class="project-links"><a href="https://github.com/srikarpilla/Data-analysis-in-heart-disease" class="project-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a></div></div></div>
+                <div class="project-content">
+                    <h3 class="project-title">Data Analysis in Heart Disease</h3>
+                    <p class="project-description">Performed exploratory data analysis and predictive modeling for heart disease datasets. Used ML models and visualizations to support diagnosis.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Pandas</span>
+                        <span class="tech-tag">Scikit-learn</span>
+                        <span class="tech-tag">Data Visualization</span>
+                    </div>
+                </div>
+            </div>
+
+        
+         <div class="project-card" data-category="Data Science">
+                <div class="project-image"><img src="images/vehicle.jpeg" alt="Vehicle Registration Investor Dashboard" />
+                    <div class="project-overlay"><div class="project-links"><a href="https://github.com/srikarpilla/UI-UX-Design" class="project-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a></div></div></div>
+                <div class="project-content">
+                    <h3 class="project-title">Vehicle Registration Investor Dashboard</h3>
+                    <p class="project-description">Created a Streamlit dashboard analyzing 100+ records with 95% visualization accuracy. Added interactive filters improving exploration efficiency by 20% and enhanced UI/UX for higher user satisfaction.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Streamlit</span>
+                        <span class="tech-tag">Data Visualization</span>
+                        <span class="tech-tag">UI/UX</span>
+                    </div>
+                </div>
+            </div>
+             <div class="project-card" data-category="Data Science">
+                <div class="project-image"><img src="images/data.jpeg" alt="Vehicle Registration Investor Dashboard" />
+                    <div class="project-overlay"><div class="project-links"><a href="https://github.com/srikarpilla/Youtube_data_analysis_powerbi_project.git" class="project-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a></div></div></div>
+                <div class="project-content">
+                    <h3 class="project-title">YouTube Data Analysis Dashboard</h3>
+                    <p class="project-description">improved insights using predictive analytics.
+            Developed dynamic reports to aid decision-making, boosting online engagement by 15%. Interactive filters and drill-down visuals enable deep business analysis.
+</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Power bi</span>
+                        <span class="tech-tag"></span>
+                        <span class="tech-tag">Data Visualization</span>
+                        <span class="tech-tag">SQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+    
+    </section>
+
+    <!-- Skills Section -->
+     <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">Technologies and tools I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-progress">
+                                <div class="skill-progress-fill" data-width="95"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <span class="skill-name">Java</span>
+                            <div class="skill-progress">
+                                <div class="skill-progress-fill" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">C</span>
+                            <div class="skill-progress">
+                                <div class="skill-progress-fill" data-width="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">AI/ML Frameworks</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">TensorFlow</span>
+                            <div class="skill-progress">
+                                <div class="skill-progress-fill" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">PyTorch</span>
+                            <div class="skill-progress">
+                                <div class="skill-progress-fill" data-width="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Scikit-learn</span>
+                            <div class="skill-progress">
+                                <div class="skill-progress-fill" data-width="92"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">OpenCV</span>
+                            <div class="skill-progress">
+                                <div class="skill-progress-fill" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Generative AI</span>
+                            <div class="skill-progress">
+                                <div class="skill-progress-fill" data-width="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Agentic AI</span>
+                            <div class="skill-progress">
+                                <div class="skill-progress-fill" data-width="88"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Web Technologies</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">HTML</span>
+                            <div class="skill-progress">
+                                <div class="skill-progress-fill" data-width="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">jss</span>
+                            <div class="skill-progress">
+                                <div class="skill-progress-fill" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Flask</span>
+                            <div class="skill-progress">
+                                <div class="skill-progress-fill" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">FastAPI</span>
+                            <div class="skill-progress">
+                                <div class="skill-progress-fill" data-width="87"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Tools & Platforms</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Vercel</span>
+                            <div class="skill-progress">
+                                <div class="skill-progress-fill" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">AWS</span>
+                            <div class="skill-progress">
+                                <div class="skill-progress-fill" data-width="75"></div>
+                            </div>
+                             <div class="skill-item">
+                            <span class="skill-name">Azure</span>
+                            <div class="skill-progress">
+                                <div class="skill-progress-fill" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Git</span>
+                            <div class="skill-progress">
+                                <div class="skill-progress-fill" data-width="92"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Power BI</span>
+                            <div class="skill-progress">
+                                <div class="skill-progress-fill" data-width="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience" id="experience">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Experience & Education</h2>
+            <p class="section-subtitle">My journey in AI/ML and software development</p>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2022 - Present</div>
+                    <h3 class="timeline-title">BTech Student</h3>
+                    <h4 class="timeline-company">Artificial Intelligence & Machine Learning</h4>
+                    <p class="timeline-description">
+                        Currently in 4th year, specializing in AI/ML with focus on deep learning and data science. Maintaining excellent academic performance while working on cutting-edge projects.
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2025 May - Jun</div>
+                    <h3 class="timeline-title">AI/ML Intern</h3>
+                    <h4 class="timeline-company">Technogen</h4>
+                    <p class="timeline-description">
+                     • Gained hands-on experience in artificial intelligence and machine learning using AWS.
+ • Implemented Amazon Contact Flow to create a customer care number.
+ • Built a pizza-ordering chatbot with AWS Lex and a knowledge base using AWS Bedrock.
+ • Created a ChatGPT-like chatbot using Claude in Bedrock and AWS Lambda
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2024 Dec - Jan 2025</div>
+                    <h3 class="timeline-title">SDE Intern</h3>
+                    <h4 class="timeline-company">Bluestock Fintech</h4>
+                    <p class="timeline-description">
+                     • Enhanced fintech platforms by improving Python and JavaScript modules, boosting transaction speed by 15%.
+ • Integrated MongoDB to improve data retrieval performance by 25%.
+ • Streamlined workflows, reducing project delivery timelines by 10%.
+ • Collaborated on end-to-end product and code testing
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    
+
+    <!-- Internship Certificates Section -->
+    <section class="certificates" id="certificates">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Internship Certificates</h2>
+                <p class="section-subtitle">Verified internship achievements</p>
+            </div>
+            <div class="certificate-list">
+                <div class="certificate-item">
+                    <a
+                        href="https://drive.google.com/file/d/1qoSmG4DqubZyWQmjAe7Vmxb368O6Z1mN/view?usp=drive_link"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        <img
+                            src="images/technogen.jpeg"
+                            alt="Technogen Internship Certificate"
+                        />
+                        <p>Technogen Internship Certificate</p>
+                    </a>
+                </div>
+                <div class="certificate-item">
+                    <a
+                        href="https://drive.google.com/file/d/1svYUWXXwis4qHNANyUvkdfWhaAkCuJf/view?usp=drive_link"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        <img
+                            src="images/blue.jpeg"
+                            alt="Bluestock Internship Certificate"
+                        />
+                        <p>Bluestock Internship Certificate</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications" id="certifications">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Certifications</h2>
+                <p class="section-subtitle">Relevant professional credentials</p>
+            </div>
+            <div class="certification-list">
+                <div class="certification-item">
+                    <a
+                        href="https://tih.iitr.ac.in/certificate/intellipaat/IPTIH25070911.png"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        <img
+                            src="images/OIP (2).jpeg"
+                            alt="Artificial Intelligence and Data Science Certification IIT Roorkee"
+                        />
+                        <p>Artificial Intelligence and Data Science iHub Divya Sampark, IIT Roorkee ( via Intellipaat)</p>
+                    </a>
+                </div>
+                <div class="certification-item">
+                    <p>SQL Certification - Intellipaat Software Solutions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's discuss opportunities and collaborations</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>pillasrikar12@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+91 8074654173</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Vizag, Andhra Pradesh, India</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a
+                            href="https://github.com/srikarpilla"
+                            target="_blank"
+                            class="social-link"
+                            rel="noopener"
+                        >
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a
+                            href="https://www.linkedin.com/in/srikar-pilla-81179425a"
+                            target="_blank"
+                            class="social-link"
+                            rel="noopener"
+                        >
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Your Name"
+                            required
+                        />
+                    </div>
+                    <div class="form-group">
+                        <input
+                            type="email"
+                            class="form-control"
+                            placeholder="Your Email"
+                            required
+                        />
+                    </div>
+                    <div class="form-group">
+                        <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Subject"
+                            required
+                        />
+                    </div>
+                    <div class="form-group">
+                        <textarea
+                            class="form-control"
+                            rows="5"
+                            placeholder="Your Message"
+                            required
+                        ></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full-width">
+                        <span class="btn-text">Send Message</span>
+                        <span class="btn-loading hidden">
+                            <i class="fas fa-spinner fa-spin"></i>
+                        </span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Srikar. All rights reserved. Built with passion for AI/ML.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
